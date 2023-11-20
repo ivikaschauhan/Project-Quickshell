@@ -1,0 +1,22 @@
+.dashContainer {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    background: white;
+    padding: 10px; /* Adjusted padding for better balance */
+  }
+  
+  .dashCardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Updated from align-content to align-items for consistency */
+    gap: 10px; /* Increased gap for better spacing */
+    max-width: 300px; /* Changed width to max-width for responsiveness */
+    padding: 15px; /* Adjusted padding for better spacing */
+    border: 1px solid #ccc; /* Added border for visual separation */
+    border-radius: 8px; /* Added border-radius for a rounded look */
+    background: white; /* Set a white background for the card */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Added a subtle box shadow */
+  }
+  

@@ -1,0 +1,41 @@
+.cardContainer {
+    width: 100%;
+    border: 1px solid rgb(214, 213, 213);
+    border-radius: 8px;
+    padding: 15px; /* Increased padding for better spacing */
+    box-shadow: 0 2px 4px rgba(60, 64, 67, 0.1), 0 3px 6px rgba(60, 64, 67, 0.15); /* Updated box shadow for a more subtle effect */
+    background:lightblue; /* Slightly changed background color */
+    position: relative; /* Added relative positioning for child elements with absolute positioning */
+  }
+  
+  .cardContainer > * {
+    width: 100%;
+  }
+  
+  .showStatus {
+    position: absolute;
+    right: 10px; /* Adjusted position for better alignment */
+    bottom: 10px; /* Adjusted position for better alignment */
+    width: 12px; /* Slightly increased width */
+    height: 12px; /* Slightly increased height */
+    background: gold; /* Changed background color to gold */
+    border-radius: 50%;
+    box-shadow: 0 0 8px rgba(255, 223, 0, 0.6); /* Added a subtle box shadow to highlight */
+  }
+  
+  .cardTags {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Increased gap for better spacing */
+    margin-top: 10px; /* Added margin for better separation from other elements */
+  }
+  
+  .tags {
+    padding: 5px 12px; /* Adjusted padding for better spacing */
+    border-radius: 8px; /* Increased border-radius for a rounder look */
+    border: 1px solid #ccc;
+    background: #f5f5f5; /* Changed background color for better contrast */
+    color: #333; /* Changed text color for better readability */
+    font-weight: bold; /* Added bold font weight for emphasis */
+  }
+  

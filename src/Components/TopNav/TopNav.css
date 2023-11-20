@@ -1,0 +1,46 @@
+.selectGroup {
+    padding: 8px; /* Increased padding for better spacing */
+  }
+  
+  .displayButton {
+    position: relative;
+  }
+  
+  .dropOnClick {
+    position: absolute;
+    width: 200px; /* Reduced width for a more compact dropdown */
+    background-color: #ffffff; /* Set a pure white background */
+    border: 1px solid #ccc; /* Added a subtle border */
+    border-radius: 8px;
+    margin-top: 12px; /* Adjusted margin for better spacing */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added a subtle box shadow */
+    z-index: 10;
+  }
+  
+  .dropOnClick > * {
+    width: 100%;
+  }
+  
+  .btn {
+    background: #4fa94d; /* Changed background color to a green shade */
+    border: 1px solid #4fa94d; /* Matched border color to the background */
+    border-radius: 8px;
+    color: #ffffff; /* Set text color to white for better contrast */
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s; /* Added a smooth transition effect */
+    padding: 8px 15px; /* Adjusted padding for better button size */
+  }
+  
+  .btn:hover {
+    background: #2f6d3b; /* Darker green on hover */
+    color: #ffffff; /* White text on hover for better visibility */
+  }
+  
+  .selectStyle {
+    width: 120px; /* Slightly increased width */
+    border-radius: 8px;
+    background: #f8f8fa;
+    padding: 6px 10px; /* Adjusted padding for better size */
+    border: 1px solid #ccc; /* Added a subtle border */
+  }
+  
